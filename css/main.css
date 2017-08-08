@@ -1,0 +1,40 @@
+* {
+  text-align: center;
+}
+body {
+  background-image: url(https://media.giphy.com/media/qZ8weHdZfq7zG/giphy.gif);
+}
+input {
+  display: block;
+  width: 500px;
+  height:40px;
+  margin-left: 30%;
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
+h1 {
+  margin-top: 60px;
+  font-family: 'Rancho', cursive;
+  font-size: 80px;
+}
+#body {
+  margin-top: 10px;
+}
+h2{
+  font-family: 'Rancho', cursive;
+  font-size: 40px;
+}
+h3 {
+  font-family: 'Rancho', cursive;
+  font-size: 30px;
+}
+@media (max-width:900px){
+input {
+  width: 300px;
+}
+}
+@media (max-width:562px){
+input {
+  width: 200px;
+}
+}
